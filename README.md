@@ -6,6 +6,7 @@ First, install this package into your Meteor app.
 
 ~~~shell
 meteor add meteorhacks:kadira-profiler
+meteor add darqs:kadira-profiler # for Meteor@1.6
 ~~~
 
 Then run your app with the following environment variable.
@@ -20,7 +21,9 @@ export KADIRA_PROFILE_LOCALLY=1
 
 Then visit [Kadira Debug](http://debug.kadiraio.com/debug?tab=cpu-profiler) and load the saved CPU profile. 
 
-For more infomation [visit here](https://kadira.io/platform/kadira-debug/cpu-profiling).
+For more infomation [visit here](https://web.archive.org/web/20161230184513/https://kadira.io/platform/kadira-debug/cpu-profiling).
 
-[![Kadira CPU Analyzer](https://cldup.com/9e2Zti7psL.png)](https://kadira.io/platform/kadira-debug/cpu-profiling)
+[![Kadira CPU Analyzer](https://cldup.com/9e2Zti7psL.png)](https://web.archive.org/web/20161230184513/https://kadira.io/platform/kadira-debug/cpu-profiling)
 
+### Changes
+I need changed package name because I want registry it on [AtmosphereJS](https://atmospherejs.com/). I changed also link to documentation, WebArchive working slowly, but working :-)
